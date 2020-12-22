@@ -1,17 +1,18 @@
 === WP Master Alert Boxes ===
-Contributors: manzoorwanijk
-Donate link: https://paypal.me/manzoorwanijk
-Tags: wordpress, alert, notices, boxes, post
-Requires at least: 4.7
-Tested up to: 5.5.1
-Requires PHP: 5.6
-Stable tag: 1.0.0
-License: GPLv3 or later
-License URI: http://www.gnu.org/licenses/gpl-3.0.html
+
+- Contributors: manzoorwanijk
+- Tags: wordpress, alert, notices, boxes, post
+- Requires at least: 4.7
+- Tested up to: 5.5.1
+- Requires PHP: 5.6
+- Stable tag: 1.0.0
+- License: GPLv3 or later
+- License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
 WP Master Alert Boxes is the most elegant and dynamic alert boxes for your WordPress site. Try it once, use it forever.
 
 == Description ==
+
 WP Master Alert Boxes is the most elegant and dynamic alert boxes for your WordPress site. Try it once, use it forever.
 
 
