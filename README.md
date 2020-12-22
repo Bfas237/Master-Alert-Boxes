@@ -1,6 +1,6 @@
 === WP Master Alert Boxes ===
 
-- Contributors: manzoorwanijk
+- Author: Ningmua Bruno
 - Tags: wordpress, alert, notices, boxes, post
 - Requires at least: 4.7
 - Tested up to: 5.5.1
