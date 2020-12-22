@@ -1,0 +1,172 @@
+.wp-block-alert-tip{
+	margin:15px 0;padding-left:20px
+}
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+ /* 
+   Info Tab Styles
+    =========== 
+*/
+
+.info-tab{width:40px;height:40px;display:inline-block;position:relative;top:8px
+}
+
+.info-tab::before,.info-tab::after{display:inline-block;color:#fff;line-height:normal;font-family:"icomoon";position:absolute}
+
+.info-tab i::before,.info-tab i::after{content:"";display:inline-block;position:absolute;left:0;bottom:-15px;transform:rotateX(60deg)}
+
+.info-tab i::before{width:20px;height:20px;box-shadow:inset 12px 0 13px rgba(0,0,0,0.5)}
+
+.info-tab i::after{width:0;height:0;border:12px solid transparent;border-bottom-color:#fff;border-left-color:#fff;bottom:-18px}
+
+
+/* Background Icon Colors */
+
+
+.tip-icon{background:#92CD59}
+
+.tip-icon{
+background-position:0 -60px;
+}
+
+.tip-icon i::before{background:#75b436}
+
+
+
+
+
+
+
+
+
+
+
+/* Tip Icon */
+
+.tip-icon::before{font-size:23px; /* first page divider graphic */
+	content:"";
+	background:url("https://i.imgur.com/OWR28Wh.png") 0 -119px no-repeat;;
+	height:40px;
+	width:680px;
+	top:0px;
+	left:2px;
+transform:scaleY(0.98)}
+
+@media screen and (max-width: 800px) {
+
+.color-box .shadow{overflow:visible}
+
+}
+
+.wp-block-alert-tip-css{
+    margin:15px 0;padding-left:20px
+}
+.color-box{margin:15px 0;padding-left:20px}
+
+.tip-box{padding:8px 8px 3px 26px}
+.info-tab{float:left;margin-left:-23px}
+
+
+
+
+
+/* Warning box */
+.tip-box{
+	font-weight:600;
+	box-shadow:0px 0px 12px 0px #2e5014;
+	height:222px;
+	background-color:#d5efc2;
+	padding-left:26px;
+	padding-right:8px;
+	padding-top:8px;
+	padding-bottom:3px;
+	margin-left:0px;
+	margin-right:0px;
+	margin-top:0px;
+	margin-bottom:0px;
+	height:auto;
+	min-height:100%;
+	white-space: pre-wrap;
+}
+
+
+/* Warning box */
+.color-box .shadow .tip-box{
+	width:100% !important;
+}
+
+
+
+/* 1025px and above screen sizes */
+@media (min-width:1025px){
+
+	/* Info tab */
+	.info-tab{
+		box-shadow:0px 0px 8px 0px #212121;
+	}
+	
+}
+
+
+/* Heading */
+.wp-block-alert-tip .tip-box h5 {
+	line-height:1.3em;
+	position:relative;
+	top:-24px;
+	border-width:2px;
+	border-top-right-radius:22px;
+	border-top-style:none;
+	border-right-width:4px;
+	text-shadow:rgb(255, 0, 0) -1px 0px 0px, rgb(0, 255, 255) 1px 0px 0px;
+	font-weight:700;
+	text-transform:capitalize;
+	font-style:italic;
+	
+}
+
+
+/* Heading */
+.wp-block-alert-tip .shadow .tip-box h5{
+	text-decoration:underline !important;
+}
+
+/* Heading */
+.wp-block-alert-tip .tip-box h5{
+	line-height:1.3em;
+	position:relative;
+	top:-24px;
+	border-width:2px;
+	border-top-right-radius:22px;
+	border-top-style:none;
+	border-right-width:4px;
+	text-shadow:rgb(255, 0, 0) -1px 0px 0px, rgb(0, 255, 255) 1px 0px 0px;
+	font-weight:600;
+	text-transform:capitalize;
+	font-style:italic;
+}
+
+/* 1025px and above screen sizes */
+@media (min-width:1025px){
+
+	/* Heading */
+	.wp-block-alert-tip .tip-box h5{
+		font-size:23px;
+	}
+	
+}
+
+
+
+

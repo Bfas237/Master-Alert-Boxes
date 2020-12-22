@@ -1,0 +1,571 @@
+.wp-block-alert-warning{
+	margin:15px 0;padding-left:20px
+}
+.wp-block-alert-tip{
+	margin:15px 0;padding-left:20px
+}
+
+.wp-block-alert-note{
+	margin:15px 0;padding-left:20px
+}
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+ /* 
+   Info Tab Styles
+    =========== 
+*/
+
+.info-tab{width:40px;height:40px;display:inline-block;position:relative;top:8px
+}
+
+.info-tab::before,.info-tab::after{display:inline-block;color:#fff;line-height:normal;font-family:"icomoon";position:absolute}
+
+.info-tab i::before,.info-tab i::after{content:"";display:inline-block;position:absolute;left:0;bottom:-15px;transform:rotateX(60deg)}
+
+.info-tab i::before{width:20px;height:20px;box-shadow:inset 12px 0 13px rgba(0,0,0,0.5)}
+
+.info-tab i::after{width:0;height:0;border:12px solid transparent;border-bottom-color:#fff;border-left-color:#fff;bottom:-18px}
+
+
+/* Background Icon Colors */
+
+
+.note-icon{background:#47ADE0;
+left: 155px;
+top:0;}
+
+.tip-icon{background:#92CD59;
+left: 155px;
+top:0;
+}
+
+.warning-icon{
+background:#AD3C3C;
+left: 155px;
+top:0;
+}
+
+.note-icon{
+background-position:0 0;
+}
+.warning-icon{
+background-position:0 -60px;
+}
+.tip-icon{
+background-position:0 -120px;
+}
+
+
+.tip-icon i::before{background:#75b436}
+
+.warning-icon i::before{background:#9c3636;}
+
+.note-icon i::before{background:#1d7ead}
+
+/* Note Icon */
+
+
+.note-icon::before{font-size:23px; /* first page divider graphic */
+	content:"";
+	background:url("https://i.imgur.com/OWR28Wh.png") 0 1px no-repeat;;
+	height:40px;
+	width:680px;
+	top:0px;
+	left:2px;
+transform:scaleY(0.98)}
+
+
+/* Tip Icon */
+
+.tip-icon::before{font-size:23px; /* first page divider graphic */
+	content:"";
+	background:url("https://i.imgur.com/OWR28Wh.png") 0 -119px no-repeat;;
+	height:40px;
+	width:680px;
+	top:0px;
+	left:2px;
+transform:scaleY(0.98)}
+
+
+/* Warning Icon */
+
+.warning-icon::before{font-size:23px; /* first page divider graphic */
+	content:"";
+	background:url("https://i.imgur.com/OWR28Wh.png") 0 -58px no-repeat;;
+	height:40px;
+	width:680px;
+	top:0px;
+	left:2px;
+transform:scaleY(0.98)}
+
+
+
+
+
+
+@media screen and (max-width: 800px) {
+
+.color-box .shadow{overflow:visible}
+
+}
+
+.wp-block-alert-warning-css{
+    margin:15px 0;padding-left:20px
+}
+.color-box{margin:15px 0;padding-left:20px}
+.note-box,.warning-box,.tip-box{padding:8px 8px 3px 26px}
+.info-tab{float:left;margin-left:-23px}
+
+
+/* Note box */
+.note-box{
+	font-weight:600;
+	box-shadow:0px 0px 12px 0px #144261;
+	height:222px;
+	width: 50%;
+	background-color:#d5e9f6;
+	padding-left:26px;
+	padding-right:8px;
+	padding-top:8px;
+	padding-bottom:3px;
+	margin-left:155px;
+	margin-right:0px;
+	margin-top:0px;
+	margin-bottom:0px;
+}
+
+/* Warning box */
+.warning-box{
+	font-weight:600;
+	box-shadow:0px 0px 12px 0px #913944;
+	height:222px;
+	width: 50%;
+	background-color:#ecd2d7;
+	padding-left:26px;
+	padding-right:8px;
+	padding-top:8px;
+	padding-bottom:3px;
+	margin-left:155px;
+	margin-right:0px;
+	margin-top:0px;
+	margin-bottom:0px;
+}
+
+/* Tip box */
+.tip-box{
+	font-weight:600;
+	box-shadow:0px 0px 12px 0px #2e5014;
+	height:222px;
+	width: 50%;
+	background-color:#d5efc2;
+	padding-left:26px;
+	padding-right:8px;
+	padding-top:8px;
+	padding-bottom:3px;
+	margin-left:155px;
+	margin-right:0px;
+	margin-top:0px;
+	margin-bottom:0px;
+}
+
+/* Warning box */
+.color-box .shadow .warning-box{
+	width:100% !important;
+}
+
+
+/* Tip box */
+.color-box .shadow .tip-box{
+	width:100% !important;
+}
+
+
+
+/* Tip box */
+.color-box .shadow .note-box{
+	width:100% !important;
+}
+
+
+
+
+
+/* Note Content and Title */
+
+
+.note-content {
+	box-shadow:0px 0px 12px 0px #2e5014;
+	height:155px;
+    transform: translate(-1%, -8%);
+    padding: 18px 10px 18px 10px;
+    color: #414141;
+    -webkit-font-smoothing: auto;
+    font-weight: 700;
+    border: 3px solid #d2d2d2;
+    border-radius: 10px;
+	overflow-x: hidden;
+	overflow: auto;
+}
+    
+.note-content:before {
+        content: attr(placeholder);
+        display: block; /* For Firefox */
+    }
+.note-content:focus {
+        outline: none;
+}
+.note-content:before {
+            display: none;
+            content: '';
+}
+
+
+.note-title {
+	box-shadow:0px 0px 12px 0px #2e5014;
+	height:35px;
+	transform: translate(-0%, -60%);
+	padding: 0px 10px 5px 10px;
+	color: #000000;
+	-webkit-font-smoothing: auto;
+	font-weight: 700;
+	border: 3px solid #96a99d;
+	border-radius: 10px 10px 10px 10px;
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+    
+.note-title:before {
+        content: attr(placeholder);
+        display: block; /* For Firefox */
+    }
+.note-title:focus {
+        outline: none;
+}
+.note-title:before {
+            display: none;
+            content: '';
+}
+
+
+
+
+
+
+
+/* Tip Content and Title */
+
+
+.tip-content {
+	box-shadow:0px 0px 12px 0px #2e5014;
+	height:155px;
+    transform: translate(-1%, -8%);
+    padding: 18px 10px 18px 10px;
+    color: #414141;
+    -webkit-font-smoothing: auto;
+    font-weight: 700;
+    border: 3px solid #d2d2d2;
+    border-radius: 10px;
+	overflow-x: hidden;
+	overflow: auto;
+}
+    
+.tip-content:before {
+        content: attr(placeholder);
+        display: block; /* For Firefox */
+    }
+.tip-content:focus {
+        outline: none;
+}
+.tip-content:before {
+            display: none;
+            content: '';
+}
+
+
+.tip-title {
+	box-shadow:0px 0px 12px 0px #2e5014;
+	height:35px;
+	transform: translate(-0%, -60%);
+	padding: 0px 10px 5px 10px;
+	color: #000000;
+	-webkit-font-smoothing: auto;
+	font-weight: 700;
+	border: 3px solid #96a99d;
+	border-radius: 10px 10px 10px 10px;
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+    
+.tip-title:before {
+        content: attr(placeholder);
+        display: block; /* For Firefox */
+    }
+.tip-title:focus {
+        outline: none;
+}
+.tip-title:before {
+            display: none;
+            content: '';
+}
+
+
+
+
+
+/* Warning Content and Title */
+
+.warning-content {
+	box-shadow:0px 0px 12px 0px #913944;
+	height:155px;
+    transform: translate(-1%, -8%);
+    padding: 18px 10px 18px 10px;
+    color: #414141;
+    -webkit-font-smoothing: auto;
+    font-weight: 700;
+    border: 3px solid #d2d2d2;
+    border-radius: 10px;
+	overflow-x: hidden;
+	overflow: auto;
+}
+    
+.warning-content:before {
+        content: attr(placeholder);
+        display: block; /* For Firefox */
+    }
+.warning-content:focus {
+        outline: none;
+}
+.warning-content:before {
+            display: none;
+            content: '';
+}
+
+
+.warning-title {
+	box-shadow:0px 0px 12px 0px #913944;
+	height:35px;
+	transform: translate(-0%, -60%);
+	padding: 0px 10px 5px 10px;
+	color: #000000;
+	-webkit-font-smoothing: auto;
+	font-weight: 700;
+	border: 3px solid #d2d2d2;
+	border-radius: 10px 10px 10px 10px;
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+    
+.warning-title:before {
+        content: attr(placeholder);
+        display: block; /* For Firefox */
+    }
+.warning-title:focus {
+        outline: none;
+}
+.warning-title:before {
+            display: none;
+            content: '';
+}
+
+
+@media screen and (max-width: 800px) {
+
+
+
+
+/* Note box and Icon */
+
+.note-icon{
+background:#47ADE0;
+left: -1px;
+top:0;
+}
+
+
+.note-box{
+	height:222px;
+	width: 75%;
+	background-color:#d5e9f6;
+	padding-left:26px;
+	padding-right:8px;
+	padding-top:8px;
+	padding-bottom:3px;
+	margin-left:7px;
+	margin-right:0px;
+	margin-top:0px;
+	margin-bottom:0px;
+}
+.note-content {
+	height:140px;
+    transform: translate(-2%, 0);
+    padding: 18px 10px 18px 10px;
+    color: #414141;
+    -webkit-font-smoothing: auto;
+    font-weight: 700;
+    border: 3px solid #2a4639;
+    border-radius: 10px;
+	overflow-x: hidden;
+	overflow: auto;
+}
+
+.note-title {
+	height:35px;
+    transform: translate(-2%, -52%);
+    padding: 0px 10px 18px 10px;
+    color: #414141;
+    -webkit-font-smoothing: auto;
+    font-weight: 900;
+    border: 3px solid #d2d2d2;
+    border-radius: 10px;
+	overflow-x: hidden;
+	overflow: auto;
+}
+
+
+
+
+
+
+
+/* Tip box and Icon */
+
+.tip-icon{
+background:#92CD59;
+left: -1px;
+top:0;
+}
+
+
+.tip-box{
+	height:222px;
+	width: 75%;
+	background-color:#d5efc2;
+	padding-left:26px;
+	padding-right:8px;
+	padding-top:8px;
+	padding-bottom:3px;
+	margin-left:7px;
+	margin-right:0px;
+	margin-top:0px;
+	margin-bottom:0px;
+}
+.tip-content {
+	height:140px;
+    transform: translate(-2%, 0);
+    padding: 18px 10px 18px 10px;
+    color: #414141;
+    -webkit-font-smoothing: auto;
+    font-weight: 700;
+    border: 3px solid #2a4639;
+    border-radius: 10px;
+	overflow-x: hidden;
+	overflow: auto;
+}
+
+.tip-title {
+	height:35px;
+    transform: translate(-2%, -52%);
+    padding: 0px 10px 18px 10px;
+    color: #414141;
+    -webkit-font-smoothing: auto;
+    font-weight: 900;
+    border: 3px solid #d2d2d2;
+    border-radius: 10px;
+	overflow-x: hidden;
+	overflow: auto;
+}
+
+
+
+
+
+
+
+
+/* Warning box and Icon */
+
+.warning-icon{
+background:#AD3C3C;
+left: -1px;
+top:0;
+}
+
+
+.warning-box{
+	height:222px;
+	width: 75%;
+	background-color:#ecd2d7;
+	padding-left:26px;
+	padding-right:8px;
+	padding-top:8px;
+	padding-bottom:3px;
+	margin-left:7px;
+	margin-right:0px;
+	margin-top:0px;
+	margin-bottom:0px;
+}
+.warning-content {
+	height:140px;
+    transform: translate(-2%, 0);
+    padding: 18px 10px 18px 10px;
+    color: #414141;
+    -webkit-font-smoothing: auto;
+    font-weight: 700;
+    border: 3px solid #d2d2d2;
+    border-radius: 10px;
+	overflow-x: hidden;
+	overflow: auto;
+}
+
+.warning-title {
+	height:35px;
+    transform: translate(-2%, -52%);
+    padding: 0px 10px 18px 10px;
+    color: #414141;
+    -webkit-font-smoothing: auto;
+    font-weight: 900;
+    border: 3px solid #d2d2d2;
+    border-radius: 10px;
+	overflow-x: hidden;
+	overflow: auto;
+}
+
+}
+
+
+
+
+@media all and (max-width: 699px) and (min-width: 320px), (min-width: 1151px) {
+  /* Warning box */
+  
+.warning-box{
+	width: 64%;
+}
+
+  /* Tip box */
+  
+.tip-box{
+	width: 64%;
+}
+
+
+  /* Tip box */
+  
+.note-box{
+	width: 64%;
+}
+
+}
