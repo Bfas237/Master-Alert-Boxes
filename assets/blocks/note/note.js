@@ -7,7 +7,7 @@
 
 	const { PlainText } = blockEditor;
 
-
+ 
 	registerBlockType( 'alert/note', {
 		title: 'Note Alert Box',
 		icon: { foreground: '#144261', background: '#d5e9f6', src: 'welcome-write-blog' },
@@ -45,10 +45,10 @@
 				el( 'div', { className: props.className },
                     el('div', {className: 'shadow'},
                     	el('div', {className: 'info-tab note-icon', title: 'Master Alert Note'},
-                        
+
                             el('i')
                             ),
-                        
+
                             el('div',{className: 'note-box'},
                              el(
 						RichText,
@@ -61,11 +61,11 @@
 							contenteditable: '',
 							placeholder: 'Enter Note Title',
 							allowedFormats: [ 'core/bold', 'core/italic', 'core/code', 'core/italic', 'core/link', 'core/strikethrough', 'core/underline', 'core/text-color', 'core/subscript', 'core/superscript']
-						
+
 						}
-                                 
+
                                ),
-                            
+
 					el(
 						RichText,
 						{
@@ -77,14 +77,14 @@
 							contenteditable: '',
 							placeholder: 'Enter Note Content',
 							allowedFormats: [ 'core/bold', 'core/italic', 'core/code', 'core/italic', 'core/link', 'core/strikethrough', 'core/underline', 'core/text-color', 'core/subscript', 'core/superscript']
-						
+
 						}
 					)
-					
-                   
+
+
                 ))
-                
-                
+
+
 				)
 			);
 		},
@@ -96,10 +96,10 @@
 				el('div', {className: 'color-box'},
                     el('div', {className: 'shadow'},
                     	el('div', {className: 'info-tab note-icon', title: 'Useful Note Alert'},
-                        
+
                             el('i')
                             ),
-                        
+
                             el('div',{className: 'note-box'},
                              el(RichText.Content, {
                                 tagName: 'h5',

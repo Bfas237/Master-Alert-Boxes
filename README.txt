@@ -15,7 +15,7 @@ WP Master Alert Boxes is the most elegant and dynamic alert boxes for your WordP
 WP Master Alert Boxes is the most elegant and dynamic alert boxes for your WordPress site. Try it once, use it forever.
 
 
-== Features ==
+== Features == 
 
 **Awesome features you won't find anywhere**
 

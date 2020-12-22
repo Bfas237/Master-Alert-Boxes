@@ -9,15 +9,15 @@
   font-weight: normal;
   font-variant: normal;
   text-transform: none;
-  line-height: 1;
+  line-height: 1; 
 
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
- /* 
+ /*
    Info Tab Styles
-    =========== 
+    ===========
 */
 
 .info-tab{width:40px;height:40px;display:inline-block;position:relative;top:8px
@@ -116,7 +116,7 @@ transform:scaleY(0.98)}
 	.info-tab{
 		box-shadow:0px 0px 8px 0px #212121;
 	}
-	
+
 }
 
 
@@ -133,7 +133,7 @@ transform:scaleY(0.98)}
 	font-weight:700;
 	text-transform:capitalize;
 	font-style:italic;
-	
+
 }
 
 
@@ -164,9 +164,5 @@ transform:scaleY(0.98)}
 	.wp-block-alert-tip .tip-box h5{
 		font-size:23px;
 	}
-	
+
 }
-
-
-
-

@@ -19,7 +19,7 @@
  * Domain Path:       /languages
  * License:           GPL-3.0+
  * License URI:       https://www.gnu.org/licenses/gpl-2.0.txt
- */
+ */ 
 
 // If this file is called directly, abort.
 if ( ! defined( 'WPINC' ) ) {

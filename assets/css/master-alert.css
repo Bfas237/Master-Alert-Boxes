@@ -1,6 +1,6 @@
 .wp-block-alert-warning{
 	margin:15px 0;padding-left:20px
-}
+} 
 .wp-block-alert-tip{
 	margin:15px 0;padding-left:20px
 }
@@ -23,9 +23,9 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
- /* 
+ /*
    Info Tab Styles
-    =========== 
+    ===========
 */
 
 .info-tab{width:40px;height:40px;display:inline-block;position:relative;top:8px
@@ -219,7 +219,7 @@ transform:scaleY(0.98)}
 	overflow-x: hidden;
 	overflow: auto;
 }
-    
+
 .note-content:before {
         content: attr(placeholder);
         display: block; /* For Firefox */
@@ -246,7 +246,7 @@ transform:scaleY(0.98)}
 	overflow-x: hidden;
 	overflow-y: hidden;
 }
-    
+
 .note-title:before {
         content: attr(placeholder);
         display: block; /* For Firefox */
@@ -281,7 +281,7 @@ transform:scaleY(0.98)}
 	overflow-x: hidden;
 	overflow: auto;
 }
-    
+
 .tip-content:before {
         content: attr(placeholder);
         display: block; /* For Firefox */
@@ -308,7 +308,7 @@ transform:scaleY(0.98)}
 	overflow-x: hidden;
 	overflow-y: hidden;
 }
-    
+
 .tip-title:before {
         content: attr(placeholder);
         display: block; /* For Firefox */
@@ -340,7 +340,7 @@ transform:scaleY(0.98)}
 	overflow-x: hidden;
 	overflow: auto;
 }
-    
+
 .warning-content:before {
         content: attr(placeholder);
         display: block; /* For Firefox */
@@ -367,7 +367,7 @@ transform:scaleY(0.98)}
 	overflow-x: hidden;
 	overflow-y: hidden;
 }
-    
+
 .warning-title:before {
         content: attr(placeholder);
         display: block; /* For Firefox */
@@ -550,20 +550,20 @@ top:0;
 
 @media all and (max-width: 699px) and (min-width: 320px), (min-width: 1151px) {
   /* Warning box */
-  
+
 .warning-box{
 	width: 64%;
 }
 
   /* Tip box */
-  
+
 .tip-box{
 	width: 64%;
 }
 
 
   /* Tip box */
-  
+
 .note-box{
 	width: 64%;
 }

@@ -7,7 +7,7 @@
 
 
 	const { PlainText } = blockEditor;
-
+ 
 
 	registerBlockType( 'alert/warning', {
 		title: 'Warning Alert Box',
@@ -46,10 +46,10 @@
 				el( 'div', { className: props.className },
                     el('div', {className: 'shadow'},
                     	el('div', {className: 'info-tab warning-icon', title: 'Useful Warning Alert'},
-                        
+
                             el('i')
                             ),
-                        
+
                             el('div',{className: 'warning-box'},
                              el(
 						RichText,
@@ -62,11 +62,11 @@
 							contenteditable: '',
 							placeholder: 'Enter Warning Title',
 							allowedFormats: [ 'core/bold', 'core/italic', 'core/code', 'core/italic', 'core/link', 'core/strikethrough', 'core/underline', 'core/text-color', 'core/subscript', 'core/superscript']
-						
+
 						}
-                                 
+
                                ),
-                            
+
 					el(
 						RichText,
 						{
@@ -78,14 +78,14 @@
 							contenteditable: '',
 							placeholder: 'Enter Warning Content',
 							allowedFormats: [ 'core/bold', 'core/italic', 'core/code', 'core/italic', 'core/link', 'core/strikethrough', 'core/underline', 'core/text-color', 'core/subscript', 'core/superscript']
-						
+
 						}
 					)
-					
-                   
+
+
                 ))
-                
-                
+
+
 				)
 			);
 		},
@@ -97,10 +97,10 @@
 				el('div', {className: 'color-box'},
                     el('div', {className: 'shadow'},
                     	el('div', {className: 'info-tab warning-icon', title: 'Useful Warning Alert'},
-                        
+
                             el('i')
                             ),
-                        
+
                             el('div',{className: 'warning-box'},
                              el(RichText.Content, {
                                 tagName: 'h5',

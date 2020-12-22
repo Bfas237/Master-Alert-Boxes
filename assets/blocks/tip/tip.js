@@ -7,7 +7,7 @@
 
 	const { PlainText } = blockEditor;
 
-
+ 
 	registerBlockType( 'alert/tip', {
 		title: 'Tips Alert Box',
 		icon: { foreground: '#2e5014', background: '#d5efc2', src: 'lightbulb' },
@@ -45,10 +45,10 @@
 				el( 'div', { className: props.className },
                     el('div', {className: 'shadow'},
                     	el('div', {className: 'info-tab tip-icon', title: 'Master Alert Tip'},
-                        
+
                             el('i')
                             ),
-                        
+
                             el('div',{className: 'tip-box'},
                              el(
 						RichText,
@@ -61,11 +61,11 @@
 							contenteditable: '',
 							placeholder: 'Enter Tip Title',
 							allowedFormats: [ 'core/bold', 'core/italic', 'core/code', 'core/italic', 'core/link', 'core/strikethrough', 'core/underline', 'core/text-color', 'core/subscript', 'core/superscript']
-						
+
 						}
-                                 
+
                                ),
-                            
+
 					el(
 						RichText,
 						{
@@ -77,14 +77,14 @@
 							contenteditable: '',
 							placeholder: 'Enter Tip Content',
 							allowedFormats: [ 'core/bold', 'core/italic', 'core/code', 'core/italic', 'core/link', 'core/strikethrough', 'core/underline', 'core/text-color', 'core/subscript', 'core/superscript']
-						
+
 						}
 					)
-					
-                   
+
+
                 ))
-                
-                
+
+
 				)
 			);
 		},
@@ -96,10 +96,10 @@
 				el('div', {className: 'color-box'},
                     el('div', {className: 'shadow'},
                     	el('div', {className: 'info-tab tip-icon', title: 'Useful Tip Alert'},
-                        
+
                             el('i')
                             ),
-                        
+
                             el('div',{className: 'tip-box'},
                              el(RichText.Content, {
                                 tagName: 'h5',
