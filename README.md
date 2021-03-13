@@ -1,4 +1,4 @@
-=== WP Master Alert Boxes ===
+=== Master Alert Boxes ===
 
 - Author: Ningmua Bruno
 - Tags: wordpress, alert, notices, boxes, post
@@ -9,11 +9,11 @@
 - License: GPLv3 or later
 - License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
-WP Master Alert Boxes is the most elegant and dynamic alert boxes for your WordPress site. Try it once, use it forever.
+Master Alert Boxes is the most elegant and dynamic alert boxes for your WordPress site. Try it once, use it forever.
 
 == Description ==
 
-WP Master Alert Boxes is the most elegant and dynamic alert boxes for your WordPress site. Try it once, use it forever.
+Master Alert Boxes is the most elegant and dynamic alert boxes for your WordPress site. Try it once, use it forever.
 
 
 == Features ==
@@ -33,7 +33,7 @@ WP Master Alert Boxes is the most elegant and dynamic alert boxes for your WordP
 *	Twitter [@bfaschat](https://twitter.com/bfaschat)
 
 **Contribution**
-Development occurs on [Github](https://github.com/Bfas237/Wp-Master-Alert-Boxes), and all contributions welcome.
+Development occurs on [Github](https://github.com/Bfas237/Master-Alert-Boxes), and all contributions welcome.
 
 
 Note: You can also contribute in translating this plugin into your local language. Join the Chat (above)
@@ -41,7 +41,7 @@ Note: You can also contribute in translating this plugin into your local languag
 
 == Installation ==
 
-1. Upload the `wp-master-alert-boxes` folder to the `/wp-content/plugins/` directory
+1. Upload the `master-alert-boxes` folder to the `/wp-content/plugins/` directory
 2. Activate the plugin through the Plugins menu in WordPress. After activation, you should see the menu of this plugin within the wordpress post edit screen.
 3. Play around with the plugin.
 
